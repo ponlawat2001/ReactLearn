@@ -8,17 +8,15 @@ const routes = createBrowserRouter([
     path: "/",
     name: "Home",
     element: <Home/>,
+    errorElement: <Nopage/>
   },
   {
     path: "/about",
     name: "About",
     element: <About/>,
+    errorElement:<Nopage/>
   },
-  {
-    path: "/notfound",
-    name: "Nopage",
-    element: <Nopage/>,
-  },
+
 ]);
 
 export default routes;
