@@ -1,8 +1,6 @@
-import styles from './css/Home.module.css'
-
 function Home(){
     return(
-        <button className={styles.btn}>Hello world</button>
+        <button type='button' className='btn btn-primary'>Hello world</button>
     )
 }
 

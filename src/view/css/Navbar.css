@@ -1,0 +1,44 @@
+.nav {
+    box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding:0 16px;
+        background-color: #A0C49D;
+        align-items: stretch;
+        gap: 16x;
+
+}
+
+.sitetitle {
+    font-size: 36px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul {
+    padding: 0 8px;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    
+}
+
+.nav .active {
+    background-color: #C4D7B2;
+}
+
+.nav  li:hover {
+    filter: drop-shadow(0 0 16px);
+}
+

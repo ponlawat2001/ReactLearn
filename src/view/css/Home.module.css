@@ -1,4 +1,8 @@
 .btn {
+    border: 4px;
+    border-color: black;
+    border-radius: 16px;
+    padding: 8px;
     background-color: aqua;
     color: black;
 
