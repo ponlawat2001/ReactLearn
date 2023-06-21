@@ -1,10 +1,9 @@
 import * as React from 'react'
-import  { BrowserRouter ,NavLink  } from 'react-router-dom'
+import  {   NavLink  } from 'react-router-dom'
 import '../css/Navbar.css'
 
 function Navbar(){
     return(
-    <BrowserRouter>
         <div className='nav'>
         <NavLink className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "active" : ""
@@ -27,10 +26,10 @@ function Navbar(){
         </NavLink>
     </li>
 </ul>
+
         </div>
 
-       
-    </BrowserRouter>
+        
     )
 }
 export default Navbar
