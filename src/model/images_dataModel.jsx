@@ -19,8 +19,11 @@ const images = [
   },
 ];
 
-const list_images = images.map((image) => (
-  <img width="200px" height="200px" src={image.image_url} />
+const list_images = images.map((image, idx) => (
+  <div key={idx}>
+    <p>{idx}</p>
+    <img width="200px" height="200px" src={image.image_url} />
+  </div>
 ));
 
 export default list_images;
