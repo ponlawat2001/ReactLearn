@@ -1,0 +1,17 @@
+div {
+  color: aliceblue;
+  font-size: 16px;
+}
+box {
+  color: blueviolet;
+  font-size: 19px;
+}
+
+.cardname {
+  text-align: center;
+  font-size: 16px;
+  padding: 0 0 8px 0;
+}
+.containner {
+  background: rgb(46, 18, 73);
+}
