@@ -1,21 +1,18 @@
 .imagebox {
-  text-align: center;
   background-color: rgb(154, 122, 177);
-  width: fit-content;
   border-radius: 28px 28px 25px 25px;
+  margin: 8px;
+  min-height: 150px;
 }
 
 .roundConners {
   border-radius: 25px 25px 0 0;
-  width: 140px;
-  background-color: blueviolet;
-  margin: 0px;
-  padding: 0px;
-  border: none;
+  width: 100%;
+  max-width: 300px;
+  min-width: 140px;
 }
 
 .textonimage {
-  margin: 0px;
-  padding: 8px 0 8px 0;
-  border: none;
+  text-align: center;
+  padding: 8px 8px 8px 8px;
 }

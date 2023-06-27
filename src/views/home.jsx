@@ -11,10 +11,8 @@ function home() {
         <h2>รับเงินคืนเมื่อเติมด้วย Codacash</h2>
       </p>
       {/* <div className="header">{list_images}</div> */}
-      <div class="container text-center">
-        <div class="row align-items-center">
-          <div class="header">{list_images}</div>
-        </div>
+      <div className="container">
+        <div className="row nopadding ">{list_images}</div>
       </div>
     </div>
   );

@@ -8,3 +8,14 @@ div {
   font-size: 16px;
   padding: 0 0 8px 0;
 }
+
+.nopadding {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
